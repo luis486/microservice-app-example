@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: luis486/frontend:latest  # Cambia a tu imagen y etiqueta específicas
+        image: luis486/frontend:0.2.0  # Cambia a tu imagen y etiqueta específicas
         ports:
-        - containerPort: 8080
+        - containerPort: 80
