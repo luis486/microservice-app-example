@@ -8,7 +8,7 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 80  # Puerto expuesto por el contenedor del frontend
+      targetPort: 8080  # Puerto expuesto por el contenedor del frontend
   type: LoadBalancer
 ---
 

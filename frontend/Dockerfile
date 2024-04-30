@@ -11,7 +11,7 @@ RUN npm install
 # Compilar la aplicación
 RUN npm run build
 
-ENV PORT=80
+ENV PORT=8080
 ENV AUTH_API_ADDRESS=http://authapi:8000
 ENV TODOS_API_ADDRESS=http://todosapi:8082
 
